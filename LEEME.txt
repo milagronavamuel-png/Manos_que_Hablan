@@ -1,0 +1,32 @@
+# Manos que Hablan — versión mejorada (HTML/CSS/JS)
+
+Esta carpeta contiene una copia mejorada de los archivos originales. No reemplaza ni elimina los originales.
+
+## Archivos
+- index.php
+- aprende-lsa.php
+- sobre-lsa.php
+- recursos.php
+- noticias.php
+- equipo.php
+- contacto.php
+- estilos.css
+- script.js
+
+## Cambios realizados
+- Se conserva la paleta bordó, dorado y crema.
+- Se mejora la jerarquía visual, espaciado, tarjetas, botones, formularios y pie de página.
+- Se corrige la coincidencia de clases del menú hamburguesa (`abierto`) entre CSS y JavaScript.
+- Se agrega cierre del menú con Escape, al elegir un enlace y al tocar fuera en móvil.
+- Se unifican las opciones de accesibilidad y se incorpora alto contraste funcional.
+- Se amplía el modo oscuro para cubrir más componentes.
+- Se mejora el comportamiento responsive y el foco visible de teclado.
+- Se agrega soporte para `prefers-reduced-motion`.
+- Se conserva el contenido y la galería existente.
+
+## Importante
+- Copiá también la carpeta `img/` original dentro de esta carpeta para que se vean las imágenes.
+- El formulario de contacto todavía no envía ni guarda consultas: requiere PHP en la siguiente etapa.
+- Las noticias conservan los enlaces de marcador `#`; necesitan páginas de detalle o destinos reales.
+- Revisar el contenido de las señas con personas competentes en LSA antes de publicarlo como material formativo.
+- No se ejecutaron pruebas visuales en un navegador real en esta entrega; conviene probar escritorio y celular antes de migrar.
